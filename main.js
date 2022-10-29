@@ -23,16 +23,6 @@ class UI{
             name : "Maneesha Maduranga",
             age : 23,
             email : 'Maneeshamaduranga@gmail.com'
-         },
-         {
-            name : "Chamod Danajaya",
-            age : 22,
-            email : 'Chamod@gmail.com'
-         },
-         {
-            name : "Vijth Dinesh",
-            age : 23,
-            email : 'Vijith@gmail.com'
          }
       ]
 
