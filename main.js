@@ -26,7 +26,7 @@ class UI{
          },
          {
             name : "Chamod Danajaya",
-            age : 23,
+            age : 22,
             email : 'Chamod@gmail.com'
          },
          {
