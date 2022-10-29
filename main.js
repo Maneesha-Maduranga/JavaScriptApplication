@@ -77,5 +77,18 @@ document.addEventListener("DOMContentLoaded",UI.displayFreinds);
 
 //Event add friends
 
+document.getElementById("freieds-form").addEventListener('submit', (e) => {
+
+   e.preventDefault();
+
+   const  name = document.getElementById("name").value;
+   const  age = document.getElementById("age").value;
+   const  emails = document.getElementById("email").value;
+
+   const buddy = new Friend(name,age,emails)
+
+   UI.addFriends(buddy);
+
+});
 
 //Event remove Friends
